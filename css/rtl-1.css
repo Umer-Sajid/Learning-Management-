@@ -1,0 +1,26 @@
+.top-strip-contact a i{
+    margin-right: 0;
+    margin-left: 8px;
+}
+.newsletter-content form input[type="email"]{
+    padding: 7px 49px 0px 0px;
+}
+.link-1 a:before{
+    float: right;
+    margin: 7px 0px 0px 15px;
+}
+.f-d-1 i{
+    margin-right: 0;
+    margin-left: 12px;
+}
+.recent-tweets-heading i{
+    margin-right: 0;
+    margin-left: 6px;
+}
+.copyright-weather i{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.prvs-btn i, .next-btn i {
+    transform: rotate(180deg);
+}

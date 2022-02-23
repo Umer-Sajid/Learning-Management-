@@ -1,0 +1,59 @@
+.top-strip-contact a i{
+    margin-right: 0;
+    margin-left: 8px;
+}
+.slider-content-1{
+    padding: 0px 70px 50px 0px;
+}
+.popular-course-1-tutor-image{
+    right: 18px;
+}
+.popular-course-1-tutor > h2{
+    padding: 19px 91px 19px 0px;
+}
+.course-fee > span{
+    left: 37px;
+}
+.history-form form input[type="email"],.history-form form input[type="text"]{
+    border-left: 2px solid #c3c8e2;
+    border-right: none;
+}
+.u-p-heading h2:before{
+    right: 23%;
+}
+.u-p-left-triangle{
+    right: 98%;
+}
+.u-p-right-triangle{
+    right: 96%;
+}
+.contact-info-nav-link:first-child{
+    padding-right: 0;
+    padding-left: 19px;
+}
+.f-e input[type="text"],.f-e input[type="email"],.f-e textarea{
+    padding: 12px 74px 7px 20px;
+}
+.f-e i{
+    border-left: 2px solid #f3f3f3;
+    border-right: none;
+}
+.newsletter-content form input[type="email"]{
+    padding: 7px 49px 0px 0px;
+}
+.link-1 a:before{
+    float: right;
+    margin: 7px 0px 0px 15px;
+}
+.f-d-1 i{
+    margin-right: 0;
+    margin-left: 12px;
+}
+.recent-tweets-heading i{
+    margin-right: 0;
+    margin-left: 6px;
+}
+.copyright-weather i{
+    margin-right: 0;
+    margin-left: 10px;
+}

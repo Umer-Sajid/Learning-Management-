@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Enroll Campus University</title>
+	<link rel="stylesheet" type="text/css" href="css/style-1.css">
+	<link rel="stylesheet" href="css/rtl-1.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="icons\fontawesome-pro-5.15.3-web\css\all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css\slick.css">
+	<link rel="stylesheet" type="text/css" href="css\slick-theme.css">
+</head>
+<body>
+<div class="top-strip">
+	<div class="top-strip-content">
+		<div id="lan" class="language">
+			<a class="active-1" href="gallery.html">ENGLISH</a>
+			<span>|</span>
+			<a class="active-1 active" href="gallery - rtl.html">Arabic</a>
+		</div>
+		<div class="top-strip-contact">
+			<a href="">
+				<i class="far fa-map-marker"></i><span>2925 Swick Hill Street, Charlotte, NC 28202</span>
+			</a>
+			<span class="line">|</span>
+			<a href="">
+				<i class="fas fa-phone"></i><span>+1 984-700-7129</span>
+			</a>
+			<span class="line">|</span>
+			<a href="">
+				<i class="fal fa-clock"></i><span>Mon - fri: 7:00am - 6:00pm</span>
+			</a>
+		</div>
+		<div class="top-strip-login">
+			<a class="login" href="" >LOGIN</a>
+			<a href="">CONTACT</a>
+			<span class="line">|</span>
+			<a class="search" href="#" id="myBtn"><i class="far fa-search"></i></a>
+			<div class="fullScreen">
+				<div class="inputBox animate__bounceInDown animate__animated"><input type="text" placeholder="Search here..."> <button type="submit"><i class="fal fa-arrow-right"></i></button> </div>
+				<div class="closeBtn"><i class="fal fa-times"></i></div>
+		   </div>
+		</div>
+	</div>
+</div>
+<div class="navigation">
+	<div class="logo">
+		<div class="logo-image">
+			<img src="images/logo.png" >
+		</div>
+		<div class="logo-heading">
+			<h1><span>Enroll Campus</span> University</h1>
+		</div>
+	</div>
+	<span id="menu" class="menu"><i class="fa fa-bars"></i></span>
+	<nav class="header-navbar">
+		<a href="index - rtl.html">HOME</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="">COURSES</a>
+		<a href="">FEATURES</a>
+		<a href="">EVENTS</a>
+		<a href="">SHOP</a>
+		<a href="">FAQs</a>
+	</nav>
+	<div class="navigation-btn">
+		<a href="">GET STARTED</a>
+	</div>
+
+
+</div>
+<div class="gallery">
+    <div class="gallery-content">
+        <div class="gallery-heading">
+            <span>GALLERY</span>
+        </div>
+        <div class="gallery-links">
+            <a href="index - rtl.html">HOME</a>
+        <i class="fal fa-chevron-right"></i>
+        <a href="#" class="o-g">Our Gallery</a>
+        </div>
+    </div>
+</div>
+<div class="gallery-images-holder">
+    <div class="gallery-images-links" id="gallery-images-links">
+		<span class="gallery-inactive gallery-active" onclick="filterSelection('all')">All</span>
+		<span class="gallery-inactive " onclick="filterSelection('nature')">University</span>
+		<span class="gallery-inactive" onclick="filterSelection('car')">Campus</span>
+		<span class="gallery-inactive" onclick="filterSelection('people')">Professors</span>
+		<span class="gallery-inactive">Classes</span>
+    </div>
+    <div class="gallery-images animate__animated animate__bounce">
+        <div class="gallery-image-1 nature animate__animated animate__bounce">
+            <img src="images/gallery-1.png" alt="nature">
+            <div class="gallery-image-1-overlay">
+                <div class="gallery-image-1-links">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <p>Students studying hard in Campus L3</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-image-1 nature animate__animated animate__bounce">
+            <img src="images/gallery-2.png" alt="nature">
+            <div class="gallery-image-1-overlay">
+                <div class="gallery-image-1-links">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <p>Students studying hard in Campus L3</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-image-1 nature animate__animated animate__bounce">
+            <img src="images/gallery-3.png" alt="nature">
+            <div class="gallery-image-1-overlay">
+                <div class="gallery-image-1-links">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <p>Students studying hard in Campus L3</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-image-1 car animate__animated animate__backInDown">
+            <img src="images/gallery-4.png" alt="car">
+            <div class="gallery-image-1-overlay">
+                <div class="gallery-image-1-links">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <p>Students studying hard in Campus L3</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-image-1 car animate__animated animate__backInDown">
+            <img src="images/gallery-5.png" alt="car">
+            <div class="gallery-image-1-overlay">
+                <div class="gallery-image-1-links">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <p>Students studying hard in Campus L3</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-image-1 car animate__animated animate__backInDown">
+            <img src="images/gallery-6.png" alt="car">
+            <div class="gallery-image-1-overlay">
+                <div class="gallery-image-1-links">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <p>Students studying hard in Campus L3</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-image-1 people animate__animated  animate__lightSpeedInRight">
+            <img src="images/gallery-7.png" alt="people">
+            <div class="gallery-image-1-overlay">
+                <div class="gallery-image-1-links">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <p>Students studying hard in Campus L3</p>
+				</div>
+            </div>
+        </div>
+        <div class="gallery-image-1 people animate__animated  animate__lightSpeedInRight">
+            <img src="images/gallery-8.png" alt="people">
+            <div class="gallery-image-1-overlay">
+                <div class="gallery-image-1-links">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <p>Students studying hard in Campus L3</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-image-1 people animate__animated  animate__lightSpeedInRight">
+            <img src="images/gallery-9.png" alt="people">
+            <div class="gallery-image-1-overlay">
+                <div class="gallery-image-1-links">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <p>Students studying hard in Campus L3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="gallery-pagination">
+		<div class="prvs-btn">
+			<i class="fal fa-chevron-left"></i><a href="">Previous</a>
+		</div>
+		<div class="pagination">
+			<a href="">1</a>
+			<a href="">2</a>
+			<a href="">3</a>
+			<span>...</span>
+			<a href="">18</a>
+		</div>
+		<div class="next-btn">
+			<a href="">Next</a><i class="fal fa-chevron-right"></i>
+		</div>
+	</div>
+</div>
+<div class="newsletter">
+	<div class="newsletter-content">
+		<form action="">
+			<i class="far fa-envelope"></i>
+			<input type="email" name="" id="" placeholder="Enter your e-mail address">
+			<input type="submit" value="Subscribe To our newsletter">
+		</form>
+	</div>
+</div>
+<div class="footer">
+	<div class="footer-contact-info">
+		<div class="footer-logo">
+			<div class="footer-logo-image">
+				<img src="images/logo.png" >
+			</div>
+			<div class="footer-logo-heading">
+				<h1><span>Enroll Campus</span> University</h1>
+			</div>
+		</div>
+		<div class="f-contact-details">
+			<span class="f-d-1">
+				<i class="fas fa-map-marker-alt"></i>
+				<p>195 Cooks Mine Road Espanola, NM 87532</p>
+			</span>
+			<span class="f-d-1">
+				<i class="fas fa-phone-alt"></i>
+				<p>+1 505-753-5656   +1 505-753-4437</p>
+			</span>
+			<span class="f-d-1">
+				<i class="far fa-envelope-open-text"></i>
+				<p>Info@university.com support@university.com</p>
+			</span>
+		</div>
+		<div class="footer-contact-details-social-links">
+			<div class="i-d-link-1">
+				<a href="">
+					<i class="fab fa-facebook-square"></i>
+				</a>
+				
+			</div>
+			<div class="i-d-link-1">
+				<a href="">
+					<i class="fab fa-twitter-square"></i>
+				</a>
+				
+			</div>
+			<div class="i-d-link-1">
+				<a href="">
+					<i class="fab fa-linkedin"></i>
+				</a>
+				
+			</div>
+			<div class="i-d-link-1">
+				<a href="">
+					<i class="fab fa-vimeo"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="quick-links">
+		<div class="quick-links-heading">
+			<h2>Quick Links</h2>
+		</div>
+		<div class="quick-links-content">
+			<div class="link-1">
+				<a href="">Our latest Events</a>
+			</div>
+			<div class="link-1">
+				<a href="">Our Courses</a>
+			</div>
+			<div class="link-1">
+				<a href="">About Us</a>
+			</div>
+			<div class="link-1">
+				<a href="">FAQ</a>
+			</div>
+			<div class="link-1">
+				<a href="">404 Page</a>
+			</div>
+			<div class="link-1">
+				<a href="">Gallery</a>
+		    </div>
+			<div class="link-1">
+				<a href="">All Instructors</a>
+			</div>
+		</div>
+	</div>
+	<div class="recent-tweets">
+		<div class="recent-tweets-heading">
+			<i class="fab fa-twitter"></i> 
+			<h2> @enrollcampus</h2>
+		</div>
+		<div class="recent-tweets-content">
+			<div class="tweet-1">
+				<p>Check universe - Multipurpose PSD Template @ThemeForest:
+					<span> pic.twitter.com/xcVlqJySjq</span>
+				</p>
+				<h4>2 hrs ago</h4>
+			</div>
+			<div class="tweet-1">
+				<p>Check out my New PSD:  FashionPlus - Fashion eCommerce:
+					<span> pic.twitter.com/xc445Ghyt</span>
+				</p>
+				<h4>4 hrs ago</h4>
+			</div>
+			<div class="tweet-1">
+				<p>MedicAid - Medical Template @ThemeForest: 
+					<span>pic.twitter.com/xcVlq542wfER</span>
+				</p>
+				<h4>1 day ago</h4>
+			</div>
+		</div>
+	</div>
+	<div class="our-instructors">
+		<div class="our-instructors-heading">
+			<h2>Our Instructors</h2>
+		</div>
+		<div class="our-instructors-content">
+			<div class="instructor-1"><img src="images/inst-1.png" alt="image-not-available"></div>
+			<div class="instructor-1"><img src="images/inst-2.png" alt="image-not-available"></div>
+			<div class="instructor-1"><img src="images/inst-3.png" alt="image-not-available"></div>
+			<div class="instructor-1"><img src="images/inst-4.png" alt="image-not-available"></div>
+			<div class="instructor-1"><img src="images/inst-5.png" alt="image-not-available"></div>
+			<div class="instructor-1"><img src="images/inst-6.png" alt="image-not-available"></div>
+			<div class="instructor-1"><img src="images/inst-7.png" alt="image-not-available"></div>
+			<div class="instructor-1"><img src="images/inst-8.png" alt="image-not-available"></div>
+			<div class="instructor-1"><img src="images/inst-9.png" alt="image-not-available"></div>
+		</div>
+	</div>
+</div>
+<div class="copyright">
+	<div class="copyright-container">
+		<div class="copyright-weather">
+			<i class="fas fa-snowflake"></i>
+			<span>Barcelona, Spain 2°F / -17°C</span>
+		</div>
+		<div class="copyright-content">
+			<p>designed by <span>diadea3007</span>, developed by <span>Allen</span></p>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script>
+	// Add active class to the current button (highlight it)
+	var header = document.getElementById("lan");
+	var btns = header.getElementsByClassName("active-1");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function() {
+	  var current = document.getElementsByClassName(" active");
+	  current[0].className = current[0].className.replace(" active", "");
+	  this.className += " active";
+	  });
+	}
+	</script>
+	<script>
+		filterSelection("all")
+		function filterSelection(c) {
+		  var x, i;
+		  x = document.getElementsByClassName("gallery-image-1");
+		  if (c == "all") c = "";
+		  for (i = 0; i < x.length; i++) {
+			w3RemoveClass(x[i], "show");
+			if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+		  }
+		}
+		
+		function w3AddClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+			if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+		  }
+		}
+		
+		function w3RemoveClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+			while (arr1.indexOf(arr2[i]) > -1) {
+			  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+			}
+		  }
+		  element.className = arr1.join(" ");
+		}
+		
+		
+		// Add active class to the current button (highlight it)
+		var btnContainer = document.getElementById("gallery-images-links");
+		var btns = btnContainer.getElementsByClassName("gallery-inactive");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function(){
+			var current = document.getElementsByClassName(" gallery-active");
+			current[0].className = current[0].className.replace(" gallery-active", "");
+			this.className += " gallery-active";
+		  });
+		}
+		</script>
+</body>
+</html>

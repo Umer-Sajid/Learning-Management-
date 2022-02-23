@@ -1,0 +1,333 @@
+@media (min-width: 1550px){
+    .why-choose-us-form-image{
+        display: block;
+    }
+}
+@media (min-width: 970px) and (max-width: 1139px)  {
+    .top-strip-content{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .our-latest-events-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .popular-courses-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .why-choose-us-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 85px 10px 0px;
+    }
+    .you-can-learn-content{
+        padding: 0px 10px;
+    }
+    .history-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .our-latest-events-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 0px 10px;
+    }
+    .our-latest-events-banner{
+        margin: 0;
+        width: 30%;
+    }
+    .blog-news-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact-info-container{
+        padding: 0px 10px;
+    }
+    .newsletter-content form{
+        padding: 0px 10px;
+    }
+    .news-1{
+        width: 50%;
+    }
+    .footer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copyright-container{
+        padding: 40px 10px 37px;
+    }
+}
+@media (min-width: 650px) and (max-width: 969px) {
+    .top-strip-content{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .find-your-course{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .slider{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 10px;
+    }
+    .slider-images,.slider-content{
+        width: 100%;
+    }
+    .popular-courses-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .why-choose-us-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .courses{
+        grid-template-columns: auto;
+    }
+    .find-your-course form{
+        width: 67%;
+        align-items: center;
+    }
+    .you-can-learn-content{
+        padding: 0px 10px;
+    }
+    .w-c-s-left-triangle > i{
+        left: -40px;
+    }
+    .w-c-s-right-triangle > i{
+        right: -40px;
+    }
+    .w-c-s-content{
+        gap: 25px;
+    }
+    .comment-1{
+        width: 100%;
+    }
+    .comment-2{
+        width: 100%;
+        position: relative;
+    }
+    .history-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 75px 10px 64px;
+    }
+    .history-content{
+        width: 100%;
+    }
+    .blog-news-content{
+        flex-wrap: wrap;
+        padding: 0px 10px;
+    }
+    .contact-us-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 10px 110px;
+    }
+    .newsletter-content form{
+        padding: 0px 10px;
+    }
+    .our-latest-events-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .our-latest-events-main{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+    }
+    .latest-events{
+        margin: 59px 24px 0px;
+    }
+    .ole-main-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-us{
+        width: 45%;
+    }
+    .our-latest-events-banner{
+        margin-top: 30px;
+        width: 60%;
+    }
+    .footer-contact-info,.quick-links,.recent-tweets,.our-instructors{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .our-instructors-content{
+        justify-content: center;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .copyright-container{
+        padding: 0px 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 649px){
+    .top-strip-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .top-strip-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+    }
+    .navigation{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu{
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #222845;
+        margin-left: 10px;
+    }
+    nav{
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .slider{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 10px;
+    }
+    .slider-images,.slider-content{
+        width: 100%;
+    }
+    .find-your-course{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+    .find-your-course form{
+        width: 100%;
+    }
+    .courses{
+        width: 100%;
+        grid-template-columns: auto;
+    }
+    .popular-courses-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .why-choose-us-container,.why-choose-us-main-content,.our-latest-events-container,.ole-main-content,.latest-events{
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+    .why-choose-us-main-content,.why-choose-us-container{
+        justify-content: center;
+    }
+    .you-can-learn-content{
+        grid-template-columns: auto;
+        padding: 0px 10px;
+    }
+    .ole-heading > h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .our-latest-events-container,.ole-main-content{
+        justify-content: center;
+    }
+    .about-us,.event-1{
+        width: 80%;
+    }
+    .w-c-s-content{
+        gap: 20px;
+    }
+    .comment-1{
+        width: 100%;
+    }
+    .comment-2{
+        position: relative;
+        width: 100%;
+        right: 0;
+        top: 0;
+    }
+    .history-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 75px 10px 64px;
+    }
+    .history-content{
+        width: 100%;
+    }
+    .history-form form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .history-form form input[type="text"],.history-form form input[type="email"]{
+        width: 100%;
+    }
+    .blog-news-content{
+        flex-wrap: wrap;
+        padding: 0px 10px;
+    }
+    .blogger-1-name{
+        padding: 19px 0px 19px 100px;
+    }
+    .contact-us-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 10px 110px;
+    }
+    .newsletter-content form{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .newsletter-content form i{
+        top: 5px;
+    }
+    .gallery-image-1{
+        width: 100%;
+    }
+    .gallery-images-links{
+        justify-content: center;
+    }
+    .gallery,.gallery-images-holder{
+        padding: 0px 10px;
+    }
+    .gallery-pagination{
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer{
+        flex-wrap: wrap;
+        padding: 0px 10px;
+    }
+    .footer-contact-info,.quick-links,.recent-tweets,.our-instructors{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .copyright-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}
