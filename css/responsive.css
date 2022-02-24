@@ -120,6 +120,10 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .info-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .navigation {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -377,6 +381,18 @@
   .ole-heading > h2 {
     font-size: 35px;
     text-align: center;
+  }
+  .info-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info-address {
+    width: 100%;
   }
   .our-latest-events-container, .ole-main-content {
     -webkit-box-pack: center;
