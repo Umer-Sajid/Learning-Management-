@@ -85,7 +85,7 @@
 			</div>
 		</div>
 		<div id="slider-content" class="slider-content slider-nav">
-			<div class="slider-content-1 slider-active">
+			<div class="slider-content-1">
 				<h2>International Programmes</h2>
 				<p>The study programmes of the Enroll Campus University are open to people from all nationalities.</p>
 				<div class="slider-btn">
@@ -1006,6 +1006,7 @@
   prevArrow: '<span class="banner-up"><i class="fas fa-chevron-up"></i></span>',
   nextArrow: '<span class="banner-down"><i class="fas fa-chevron-down"></i></span>',
   fade: true,
+  rtl:true,
   asNavFor: '.slider-nav'
 });
 $('.slider-nav').slick({
@@ -1058,18 +1059,6 @@ $('.slider-nav').slick({
 	  });
 	}
 	</script>
-	<script>
-		// Add active class to the current button (highlight it)
-		var header = document.getElementById("slider-content");
-		var btns = header.getElementsByClassName("slider-content-1");
-		for (var i = 0; i < btns.length; i++) {
-		  btns[i].addEventListener("click", function() {
-		  var current = document.getElementsByClassName(" slider-active");
-		  current[0].className = current[0].className.replace(" slider-active", "");
-		  this.className += " slider-active";
-		  });
-		}
-		</script>
 		<script type="text/javascript">
 			const btn =
 			document.querySelector("#myBtn")

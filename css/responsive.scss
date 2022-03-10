@@ -9,6 +9,7 @@
         gap: 10px;
         align-items: center;
     }
+    
     .our-latest-events-main{
         display: flex;
         flex-direction: column;
@@ -74,6 +75,9 @@
     .find-your-course{
         flex-direction: column;
         align-items: center;
+    }
+    .info-content{
+        flex-wrap:wrap;
     }
     .navigation{
         justify-content: center;
@@ -249,6 +253,13 @@
     .ole-heading > h2 {
         font-size: 35px;
         text-align: center;
+    }
+    .info-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-address{
+        width: 100%;
     }
     .our-latest-events-container,.ole-main-content{
         justify-content: center;

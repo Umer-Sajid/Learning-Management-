@@ -283,6 +283,27 @@ nav a{
 	padding-bottom: 50px;
 	padding-left: $seventy;
 }
+.slider-content-1.slick-current{
+	background: $pr1;
+	border-left: 4px solid #b99663;
+	h2{
+		font-size: $twenty-six;
+	    color: $txt-clr-3;
+	    font-family: $heading;
+	    margin-top: 30px;
+	}
+	p{
+		font-size: $fifteen;
+	    color: $txt-clr-5;
+	    font-family: $para;
+	    width: 83%;
+	    line-height: 160%;
+	}
+	a{
+		color: $txt-clr-3;
+		background: $txt-clr-2;
+	}
+} 
 .slider-content-1 h2{
 	font-size: $twenty-six;
 	color: $txt-clr-6;
@@ -1257,6 +1278,7 @@ nav a{
 .history{
 	background: url(../images/history-bg.png) no-repeat center center;
 	background-size: cover;
+	background-attachment: fixed;
 	@include margin-b;
 }
 .history-container{

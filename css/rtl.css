@@ -5,6 +5,11 @@
 .slider-content-1{
     padding: 0px 70px 50px 0px;
 }
+.slider-content-1.slick-current {
+    background: #222845;
+    border-right: 4px solid #b99663;
+    border-left: none;
+}
 .popular-course-1-tutor-image{
     right: 18px;
 }
@@ -13,6 +18,9 @@
 }
 .course-fee > span{
     left: 37px;
+}
+.comment-2{
+    right: 37%;
 }
 .history-form form input[type="email"],.history-form form input[type="text"]{
     border-left: 2px solid #c3c8e2;

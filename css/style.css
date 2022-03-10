@@ -272,6 +272,31 @@ nav a {
   padding-left: 70px;
 }
 
+.slider-content-1.slick-current {
+  background: #222845;
+  border-left: 4px solid #b99663;
+}
+
+.slider-content-1.slick-current h2 {
+  font-size: 26px;
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+  margin-top: 30px;
+}
+
+.slider-content-1.slick-current p {
+  font-size: 15px;
+  color: #8a8fa7;
+  font-family: "Ubuntu", sans-serif;
+  width: 83%;
+  line-height: 160%;
+}
+
+.slider-content-1.slick-current a {
+  color: #ffffff;
+  background: #b99663;
+}
+
 .slider-content-1 h2 {
   font-size: 26px;
   color: #222845;
@@ -1489,6 +1514,7 @@ nav a {
 .history {
   background: url(../images/history-bg.png) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   margin-bottom: 100px;
 }
 

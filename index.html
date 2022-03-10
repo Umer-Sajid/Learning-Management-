@@ -84,7 +84,7 @@
 			</div>
 		</div>
 		<div id="slider-content" class="slider-content slider-nav">
-			<div class="slider-content-1 slider-active">
+			<div class="slider-content-1">
 				<h2>International Programmes</h2>
 				<p>The study programmes of the Enroll Campus University are open to people from all nationalities.</p>
 				<div class="slider-btn">
@@ -620,8 +620,8 @@
 			<h1>Still not convinced? <span>We can help you!</span></h1>
 			<p>Fill out the form below and we will contact you.</p>
 			<form action="">
-				<input type="text" placeholder="Name:">
-				<input type="email" placeholder="E-mail:">
+				<input type="text" placeholder="Name:" required>
+				<input type="email" placeholder="E-mail:" required>
 				<input type="submit" value="GET ADVICE">
 			</form>
 		</div>
@@ -774,19 +774,19 @@
 				<form action="">
 					<span class="f-e">
 						<i class="fas fa-user"></i>
-						<input type="text" placeholder="Name">
+						<input type="text" placeholder="Name" required>
 					</span>
 					<span class="f-e">
 						<i class="fas fa-paper-plane"></i>
-						<input type="email" placeholder="E-mail">
+						<input type="email" placeholder="E-mail" required>
 					</span>
 					<span class="f-e">
 						<i class="fas fa-phone-alt"></i>
-						<input type="text" placeholder="Phone">
+						<input type="text" placeholder="Phone" required>
 					</span>
 					<span class="f-e">
 						<i class="fas fa-envelope"></i>
-						<textarea placeholder="Message"></textarea>
+						<textarea placeholder="Message" required></textarea>
 					</span>
 					<div class="s-m-btn">
 						<a href="">Send Message</a>
@@ -857,7 +857,7 @@
 	<div class="newsletter-content">
 		<form action="">
 			<i class="far fa-envelope"></i>
-			<input type="email" name="" id="" placeholder="Enter your e-mail address">
+			<input type="email" name="" id="" placeholder="Enter your e-mail address" required>
 			<input type="submit" value="Subscribe To our newsletter">
 		</form>
 	</div>
@@ -1057,7 +1057,7 @@ $('.slider-nav').slick({
 	  });
 	}
 	</script>
-	<script>
+	<!-- <script>
 		// Add active class to the current button (highlight it)
 		var header = document.getElementById("slider-content");
 		var btns = header.getElementsByClassName("slider-content-1");
@@ -1068,7 +1068,7 @@ $('.slider-nav').slick({
 		  this.className += " slider-active";
 		  });
 		}
-		</script>
+		</script> -->
 		<script type="text/javascript">
 			const btn =
 			document.querySelector("#myBtn")
@@ -1135,7 +1135,7 @@ $('.slider-nav').slick({
         $('.autoplay-1').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
 		prevArrow: '<span class="w-c-s-left-triangle"><i class="fas fa-chevron-left"></i></span>',
         nextArrow: '<span class="w-c-s-right-triangle"><i class="fas fa-chevron-right"></i></span>',
@@ -1153,7 +1153,7 @@ $('.slider-nav').slick({
 		$('.autoplay-2').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
 		prevArrow: '<span class="u-p-left-triangle"><i class="fas fa-chevron-left"></i></span>',
         nextArrow: '<span class="u-p-right-triangle"><i class="fas fa-chevron-right"></i></span>',
